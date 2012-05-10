@@ -1,14 +1,15 @@
 module 'ui.buttons'
-{UIView} = require 'ui'
 
-class UIButton extends UIView
+ui = require 'ui'
+
+class UIButton extends ui.UIView
   @registerClass @name
-  @mixin UIActivateMixin
-  @mixin UIDisableMixin
-  @mixin UIClickMixin
-  @mixin UIHoverMixin
-  @mixin UIFocusMixin
-  @mixin UIPressEnterMixin
+  @mixin ui.UIActivateMixin
+  @mixin ui.UIDisableMixin
+  @mixin ui.UIClickMixin
+  @mixin ui.UIHoverMixin
+  @mixin ui.UIFocusMixin
+  @mixin ui.UIPressEnterMixin
   constructor: (options) -> super
   
-exports extends {UIButton}
+ui extends {UIButton}

@@ -1,3 +1,5 @@
+module 'ui.base'
+
 class UIView extends View
   @registerClass @name
   constructor: (options = {}) -> super

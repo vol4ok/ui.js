@@ -1,4 +1,8 @@
-class UIModal extends UIView
+module 'ui.modal'
+
+ui = require 'ui'
+
+class UIModal extends ui.UIView
   @registerClass @name
   
   constructor: (options = {}) ->
@@ -36,3 +40,5 @@ class UIModalBackdrop extends UIModal
   hide: =>
     $('#container').removeAttr('style')
     super
+
+ui extends {UIModal, UIModalBackdrop}
