@@ -1,1 +1,0 @@
-../../mvc/lib/mvc.js
