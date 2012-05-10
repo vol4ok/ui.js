@@ -3,9 +3,11 @@
   "name": "ui.js",
   "version": "0.0.0",
   "repository": {
-    "url": ""
+    "url": "git://github.com/vol4ok/mvc.js.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "nlink": ">=0.0.2"
+  },
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
